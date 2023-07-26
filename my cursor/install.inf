@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 24,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%24%\%CUR_DIR%\%pointer%,%24%\%CUR_DIR%\%help%,%24%\%CUR_DIR%\%work%,%24%\%CUR_DIR%\%busy%,%24%\%CUR_DIR%\%cross%,%24%\%CUR_DIR%\%text%,%24%\%CUR_DIR%\%handwrt%,%24%\%CUR_DIR%\%unavailiable%,%24%\%CUR_DIR%\%vert%,%24%\%CUR_DIR%\%horz%,%24%\%CUR_DIR%\%dgn1%,%24%\%CUR_DIR%\%dgn2%,%24%\%CUR_DIR%\%move%,%24%\%CUR_DIR%\%alternate%,%24%\%CUR_DIR%\%link%,%24%\%CUR_DIR%\%person%,%24%\%CUR_DIR%\%pin%"
+
+[Scheme.Cur]
+mouse.cur
+cross.cur
+load.cur
+cross.cur
+-.cur
+help.cur
+link.cur
+move.cur
+Closehand.cur
+Diagonal Resize 1.cur
+pen.cur
+person.cur
+pin.cur
+text.cur
+x.cur
+load and cur.cur
+
+[Strings]
+CUR_DIR       = "Windows\Cursors\Gamercats cursor pack"
+SCHEME_NAME   = "Gamercats cursor pack"
+pointer       = "mouse.cur"
+alternate     = "arrow_i.cur"
+busy          = "load.cur"
+cross         = "cross.cur"
+horz          = "-.cur"
+help          = "help.cur"
+link          = "link.cur"
+move          = "move.cur"
+dgn2          = "Diagonal Resize 2.cur"
+vert          = "Closehand.cur"
+dgn1          = "Diagonal Resize 1.cur"
+handwrt       = "pen.cur"
+person       = "person.cur"
+pin       = "Closehand.cur"
+text          = "text.cur"
+unavailiable  = "x.cur"
+work          = "load and cur.cur"
